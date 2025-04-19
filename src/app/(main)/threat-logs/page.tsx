@@ -1,9 +1,13 @@
-import React from 'react'
+import { ThreatLogHeader } from "@/components/threat-log/ThreatLogHeader";
+import { ThreatLogFilters } from "@/components/threat-log/ThreatLogFilters";
+import { ThreatLogTable } from "@/components/threat-log/ThreatLogTable";
 
-function page() {
+export default function ThreatLogPage() {
   return (
-    <div>page</div>
-  )
+    <main className="p-6 space-y-6">
+      <ThreatLogHeader />
+      <ThreatLogFilters />
+      <ThreatLogTable />
+    </main>
+  );
 }
-
-export default page
