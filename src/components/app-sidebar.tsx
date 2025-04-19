@@ -5,8 +5,6 @@ import {
   IconAlertCircle,
   IconChartBar,
   IconDashboard,
-  IconDatabase,
-  IconFileTextShield,
   IconHelp,
   IconInnerShadowTop,
   IconListDetails,
@@ -82,19 +80,9 @@ const data = {
   ],
   documents: [
     {
-      name: "Security Policies",
-      url: "/security-policies",
-      icon: IconFileTextShield,
-    },
-    {
       name: "Incident Reports",
       url: "/incident-reports",
       icon: IconReport,
-    },
-    {
-      name: "Audit Logs",
-      url: "/audit-logs",
-      icon: IconDatabase,
     },
   ],
 };
